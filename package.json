@@ -1,8 +1,8 @@
 {
-    "name": "osc",
+    "name": "osc-serialless",
     "main": "src/platforms/osc-node.js",
     "version": "2.2.0",
-    "description": "A JavaScript Open Sound Control (OSC) library that works in Node.js and the browser.",
+    "description": "A JavaScript Open Sound Control (OSC) library that works in Node.js and the browser. Node.js Serial functionality removed to allow greater portability.",
     "author": "Colin Clark",
     "homepage": "https://github.com/colinbdclark/osc.js",
     "repository": {
@@ -37,7 +37,6 @@
     "dependencies": {
         "wolfy87-eventemitter": "5.0.0",
         "long": "3.2.0",
-        "serialport": "4.0.7",
         "slip": "1.0.2",
         "ws": "3.0.0"
     },
