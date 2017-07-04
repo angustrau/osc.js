@@ -3,7 +3,7 @@
     "main": "src/platforms/osc-node.js",
     "version": "2.2.0",
     "description": "A JavaScript Open Sound Control (OSC) library that works in Node.js and the browser. Node.js Serial functionality removed to allow greater portability.",
-    "author": "Colin Clark",
+    "author": "Colin Clark / Angus Trau",
     "homepage": "https://github.com/colinbdclark/osc.js",
     "repository": {
         "type": "git",

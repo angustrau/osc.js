@@ -32,7 +32,7 @@ In addition to the low-level encoder/decoder functions, osc.js also provides a c
     </tr>
     <tr>
         <td>Serial port</td>
-        <td>Node.js, Chrome Apps</td>
+        <td>Node.js (Removed in this fork), Chrome Apps</td>
     </tr>
     <tr>
         <td>Web Sockets</td>
@@ -82,21 +82,7 @@ Your dependencies will be located in a directory called <code>bower_components</
 
 npm is a package manager for Node.js and web-based projects. Dependencies are registered in the [npmjs.org registry](https://www.npmjs.com/).
 
-For an npm-based project that depends on osc.js, you'll need a <code>package.json</code> configuration file for it:
-
-    {
-        "name": "<your project name>",
-        "version": "<your project version>",
-        "dependencies": {
-            "osc": "2.2.0"
-        }
-    }
-
-Don't forget to update the <code>name</code>, <code>version</code>, and [other package.json fields](https://docs.npmjs.com/files/package.json) appropriately for your project.
-
-Then, to install osc.js and all your other project dependencies, run:
-
-    npm install
+    npm install https://github.com/angustrau/osc.js-Serialless
 
 Your dependencies will be located in a directory called <code>node_modules</code> in your project root.
 
